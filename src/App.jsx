@@ -1,5 +1,4 @@
 import logo from "./assets/logo.png";
-import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./App.css";
 
 import noonLogo from "./assets/noon2.png";
@@ -271,7 +270,7 @@ function About() {
           </div>
 
           <div className="row gx-lg-5 align-items-left">
-            <div className="col-lg-6 col-12">
+            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <div className="image-container">
                 <img
                   src={aboutImage}
@@ -302,7 +301,7 @@ function About() {
               </div>
             </div>
 
-            <div className="col-12 col-lg-6">
+            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-12">
               <div className="about-text-content">
                 <p className="mb-3">
                   LBDO Delivery Services is a Dubai-based logistics and
